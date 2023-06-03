@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import AppMainBodyJs from './components/AppMainBodyJs.vue';
-import AppMainBodyTs from './components/AppMainBodyTs.vue';
 </script>
 
 <template>
@@ -14,12 +13,7 @@ import AppMainBodyTs from './components/AppMainBodyTs.vue';
   </div>
   <div>
     <div style="display: inline-block;">
-      <div>
-        <AppMainBodyJs></AppMainBodyJs>
-      </div>
-      <div>
-        <AppMainBodyTs></AppMainBodyTs>
-      </div>
+      <AppMainBodyJs></AppMainBodyJs>
     </div>
   </div>
 </template>
